@@ -1,0 +1,240 @@
+h1,h2,h3,h4,p,a{
+	font-family:"arial narrow";
+}
+h1,h2,h3,h4,li,a,p,ul,ol,b,html,body,img{
+	margin: 0;
+	padding: 0;
+}
+
+.headd{
+	background-image:url(../img/猫与少女.jpg) ;
+	height: 230px;
+	width: 100%;
+}
+.navLogo{
+    width: 150px;
+}
+.navbar-default{
+    padding: 0px;
+    height: 120px;
+    background-color: #000;
+    border: none;
+}
+.navbar-default{
+	background-color: transparent;
+    color: rgb(8,171,166);
+    color: white;
+    font-size: 14px;
+    transition:color 0.5s linear;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+.navbar-header{
+    height: 100px;
+
+}
+.navpa{
+
+	margin-top: 150px;
+	border-radius: 5px;
+}
+
+.aa{
+	font-size: 25px;
+}
+
+.se{
+	padding: 20px;
+	width: 100%;}
+
+#catlife{
+	display: none;
+}
+.chuans{
+	cursor:pointer;
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
+.auto .tabb{
+	width: 45%;
+}
+
+.divau{
+	text-align: center;
+}
+.foot{
+	background-color:#C0C0C0;
+	text-align: center;
+	padding: 5px;
+	height: 40px;
+}
+#first50{
+	background-color:rgb(188,193,197);
+	color: black;
+}
+.kindh{
+	background-color:#66512C;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	margin-top: 5px;
+	padding: 5px;
+}
+@media only screen and (min-width: 100px){
+	.navpa{
+	margin-left: 150px;
+	margin-top: 0px;
+	border-radius: 5px;
+	}
+	.lun{
+		float:inherit;
+	}
+	.daoh{
+		float: right;
+	}
+	.aa{
+		font-size: 10px;
+	}
+	.se h2{
+	font-size: 15px;
+	font-family: "仿宋";
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	}
+	#cathjump{
+	display: none;
+	color:#985F0D;
+	font-size: 10px;
+	background-color:#08ABA6
+	border-radius: 5px;
+	}
+	#first50{
+		height: 30px;
+		margin-top: 10x;
+		border-radius: 5px;
+		font-size: 15px;
+		padding: 5px;
+	}
+	.imgau{
+		text-align: center;
+	}
+	.text{
+		margin-top: 15px;
+		text-align: center;
+	}
+	.text p{
+		font-size: 5px;
+	}
+	.kindh h3{
+	font-size: 15px;
+	}
+}
+@media only screen and (min-width: 760px){
+	.navpa{
+	margin-left: 200px;
+	margin-top: 0px;
+	border-radius: 5px;
+	}
+	
+	.daoh{
+		float: right;
+	}
+	.aa{
+		font-size: 15px;
+	}
+	.se h2{
+	font-size: 15px;
+	font-family: "仿宋";
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	}
+	#cathjump{
+	display: none;
+	color:#985F0D;
+	font-size: 13px;
+	background-color:#08ABA6
+	border-radius: 5px;
+	}
+	#first50{
+		height: 40px;
+		margin-top: 15px;
+		border-radius: 5px;
+		font-size: 20px;
+		padding: 6px;
+	}
+	#firtcat{
+		height: 190px;
+	}
+	.text{
+		margin-top: 30px;
+		text-align: center;
+	}
+	.imgau{
+		float: right;
+	}
+	.text p{
+		font-size: 10px;
+	}
+	.kindh h3{
+	font-size: 20px;
+	}
+
+}
+@media only screen and (min-width: 1024px){
+	.navpa{
+	margin-left: 200px;
+	margin-top: 150px;
+	border-radius: 5px;
+	}
+	
+	.daoh{
+		float:left;
+	}
+	.aa{
+		font-size: 20px;
+	}
+	.se h2{
+	font-size: 20px;
+	font-family: "仿宋";
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	}
+	#cathjump{
+	display: none;
+	color:#985F0D;
+	font-size: 13px;
+	background-color:#08ABA6
+	border-radius: 5px;
+	}
+	#first50{
+		height: 50px;
+		margin-top: 20px;
+		border-radius: 5px;
+		font-size: 25px;
+		padding: 10px;
+	}
+	#firtcat{
+		height: 190px;
+		
+	}
+	.text{
+		margin-top: 50px;
+		text-align: center;
+	}
+	.text p{
+		font-size: 15px;
+	}
+	.imgau{
+		text-align: center;
+	}
+	.kindh h3{
+	font-size: 25px;
+	}
+}
+
+

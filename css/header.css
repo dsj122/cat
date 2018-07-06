@@ -1,0 +1,125 @@
+.navbar{
+    transition: all 1s ease-out;
+}
+
+.navbar-default{
+    padding: 0px;
+    height: 120px;
+    background-color: #000;
+    border: none;
+}
+
+.navbar-collapse{
+    border: none;
+}
+
+.siteNavContent{
+    margin-top:20px;
+    background-color: #0f0f0f;
+}
+
+
+.imgDiv{
+    height: 1000px;
+    background-image: url("../img/homescreen.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 120px;
+}
+
+@media (min-width:780px ) {
+    .navbar-default{
+        height: 140px;
+        background-color: transparent;
+        border: none;
+        padding: 20px;
+    }
+
+    .nav .dropdown-menu{
+        background-color: #0f0f0f;
+    }
+
+    .nav .dropdown-menu li{
+        background-color: #0f0f0f;
+        height: 30px;
+    }
+
+    .nav .dropdown-menu li a:hover{
+        background-color: rgb(8,171,166);
+    }
+
+    .siteNavContent{
+        margin-top:30px;
+        background-color: transparent;
+    }
+
+    .imgDiv{
+        height: 1000px;
+        background-image: url("../img/homescreen.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 0px;
+    }
+}
+
+
+
+
+
+
+.navbar-fixed-top{
+    margin-bottom: 0px;
+}
+
+.navbar-header{
+    height: 100px;
+
+}
+.navbar-default .navbar-nav >li >a{
+    color: white;
+    font-size: 14px;
+    transition:color 0.5s linear;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+.navbar-default .navbar-nav >li >a:hover {
+    color: rgb(8,171,166);
+}
+
+
+
+
+
+.siteNavContent .btn-primary{
+    background-color: #08aba6;
+    border-radius: 0px;
+    height: 40px;
+    border: none;
+    transition:background-color 0.5s linear;
+}
+.siteNavContent .btn-primary:hover{
+    background-color: white;
+    color:rgb(8,171,166);
+}
+.top-nav{
+    padding: 0px;
+    height: 120px;
+    background-color: #000;
+}
+
+.nav .dropdown-menu{
+    background-color: #0f0f0f;
+}
+
+.nav .dropdown-menu li a{
+    color:black;
+}
+
+
+
+footer{
+    background: #1c1c1c;
+    color: #666666;
+    height: 65px;
+    line-height: 65px;
+}
